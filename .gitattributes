@@ -3,10 +3,9 @@
 *.gitattributes text eol=lf
 *.gitignore text eol=lf
 # Treat *.plist as text
-**/*.plist text eol=lf
-InfoPlist.strings text eol=lf
-**/*.dsl text eol=lf
-**/Kexts/**/*.plist text eol=lf
+*.plist text eol=lf
+*.strings text eol=lf
+*.dsl text eol=lf
 
 *.efi filter=lfs diff=lfs merge=lfs -text
 *.aml filter=lfs diff=lfs merge=lfs -text
