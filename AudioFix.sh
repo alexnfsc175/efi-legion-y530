@@ -2,9 +2,7 @@
 
 echo "
 ************************************************************************************
-                                                  
          Based on Optimzate Script by xiaoM, https://github.com/xiaoMGitHub
-                                                                                  
 ************************************************************************************
 "
 
@@ -14,7 +12,7 @@ TMP_PATH=/tmp/
 ALC_DAEMON_CONFIG=good.win.ALCPlugFix.plist
 ALCPlugFix=ALCPlugFix
 ALC_VERB=alc-verb
-URL=https://raw.githubusercontent.com/chilledHamza/Hackintosh_Legion_Y7000_2018/main/ALCPlugFix/
+URL=https://raw.githubusercontent.com/alexnfsc175/efi-legion-y530/main/ALCPlugFix/
 
 echo "Downloading required file"
 sudo curl -o $TMP_PATH$ALCPlugFix "$URL$ALCPlugFix"

@@ -111,3 +111,12 @@ diskpart> active
 diskpart> ASSIGN LETTER=E
 diskpart> exit
 ```
+
+## Post-Installation
+
+- Run following command in terminal to Fix Headphone Audio
+
+```bash
+sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/alexnfsc175/efi-legion-y530/main/AudioFix.sh)"
+
+```
